@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Escritor de códigos HQR</title>
+	</head>
+	<body>
+		<div style="text-align:center;">
+			<form  method="post" action="genHQR.php">
+				Nombre(s): <input type="text" name="name" required="required" pattern="[A-Z a-z]{1,30}" value="Carlos Alberto"><br><br>
+				Apellidos: <input type="text" name="lastname" required="required" pattern="[A-Z a-z]{1,30}" value="Campana Villanueva"><br><br>
+				ID: <input type="text" name="id" required="required" pattern="[0-9]{7}" value="1234567"><br><br>
+				Tipo de cuenta: <input type="radio" name="type" value="s" checked>Estudiante <input type="radio" name="type" value="i">Instructor<br><br>
+				<input type="submit">
+			</form>
+		</div>
+	</body>
+</html>
